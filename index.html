@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <title>Bateria no teclado</title>
+
+    <style>
+
+        body {
+            text-align: center;
+            padding: 100px;
+            padding-top: 200px;
+            padding-left: 200px;
+            background-image: url("img/bg.jpg");
+            background-size: 1500px 1000px;
+            background-repeat: no-repeat;
+        }
+
+        .tecla {
+            margin: 50px;
+            width: 100px;
+            height: 100px;
+            padding: 35px;
+            box-sizing: border-box;
+            float: left;
+            background-color: gray;
+            color: white;
+            border-radius: 12px;
+            font-family: Impact;
+            font-size: x-large;
+}
+
+    </style>
+
+</head>
+
+<body>
+
+    <audio id="play1">
+        <source src="sounds/1.wav" type="audio/wav">
+    </audio>
+
+    <audio id="play2">
+        <source src="sounds/2.wav" type="audio/wav">
+    </audio>
+
+    <audio id="play3">
+        <source src="sounds/3.wav" type="audio/wav">
+    </audio>
+
+    <audio id="play4">
+        <source src="sounds/4.wav" type="audio/wav">
+    </audio>
+
+    <div class="tecla" id="clique_a">
+        A <br>
+    </div>
+    
+    <div class="tecla" id="clique_s">
+        S <br>
+    </div>
+
+    <div class="tecla" id="clique_d">
+        D <br>
+    </div> 
+
+    <div class="tecla" id="clique_w">
+        W <br>
+    </div>
+
+</body>
+<script type="text/javascript" src="drum.js"></script>
+
+</html>
