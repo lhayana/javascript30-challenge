@@ -1,2 +1,4 @@
 # key-drum
-javascript30's first challenge
+
+simple game of pressing keys and activating drum sounds.
+https://lhayana.github.io/key-drum/
